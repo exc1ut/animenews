@@ -34,6 +34,7 @@ app.get("*", (req, res) => {
 
 //server execution
 const port = process.env.PORT || 5000;
+console.log(process.env.PORT);
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );
