@@ -8,7 +8,6 @@ import path from "path";
 import News from "./routes/NewsRoute.js";
 import Category from "./routes/CategoryRoute.js";
 
-const port = process.env.PORT || 5000;
 const app = express();
 
 // parse application/x-www-form-urlencoded
@@ -34,6 +33,7 @@ app.get("*", (req, res) => {
 // }
 
 //server execution
+const port = process.env.PORT || 5000;
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );
