@@ -1,0 +1,21 @@
+.logo_h>img {
+    height: 65px;
+    width: auto;
+}
+
+.hero-banner {
+    background: url(../img/banner/hero-banner.jpg) left center no-repeat;
+    background-size: cover;
+}
+
+.img-fluid {
+    height: 460px;
+    width: 1000px;
+    object-fit: cover;
+}
+
+.card-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
