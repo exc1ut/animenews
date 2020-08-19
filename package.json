@@ -1,0 +1,27 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "mongo express react node ",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "exc1ut",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.18",
+    "react-html-parser": "^2.0.2",
+    "react-spring": "^8.0.27",
+    "react-visibility-sensor": "^5.1.1",
+    "striptags": "^3.1.1"
+  },
+  "type": "module"
+}
